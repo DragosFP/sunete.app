@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFACFE8C1DAA96E0002316CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFACFE8B1DAA96E0002316CF /* AppDelegate.swift */; };
+		DFACFE8E1DAA96E0002316CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFACFE8D1DAA96E0002316CF /* ViewController.swift */; };
+		DFACFE911DAA96E0002316CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACFE8F1DAA96E0002316CF /* Main.storyboard */; };
+		DFACFE941DAA96E0002316CF /* Sunete___iOS_10.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFACFE921DAA96E0002316CF /* Sunete___iOS_10.xcdatamodeld */; };
+		DFACFE961DAA96E0002316CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFACFE951DAA96E0002316CF /* Assets.xcassets */; };
+		DFACFE991DAA96E0002316CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACFE971DAA96E0002316CF /* LaunchScreen.storyboard */; };
+		DFACFEA41DAA96E0002316CF /* Sunete___iOS_10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFACFEA31DAA96E0002316CF /* Sunete___iOS_10Tests.swift */; };
+		DFACFEAF1DAA96E0002316CF /* Sunete___iOS_10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFACFEAE1DAA96E0002316CF /* Sunete___iOS_10UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFACFEA01DAA96E0002316CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFACFE801DAA96E0002316CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFACFE871DAA96E0002316CF;
+			remoteInfo = "Sunete - iOS 10";
+		};
+		DFACFEAB1DAA96E0002316CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFACFE801DAA96E0002316CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFACFE871DAA96E0002316CF;
+			remoteInfo = "Sunete - iOS 10";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFACFE881DAA96E0002316CF /* Sunete - iOS 10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sunete - iOS 10.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFACFE8B1DAA96E0002316CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFACFE8D1DAA96E0002316CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFACFE901DAA96E0002316CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFACFE931DAA96E0002316CF /* Sunete___iOS_10.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Sunete___iOS_10.xcdatamodel"; sourceTree = "<group>"; };
+		DFACFE951DAA96E0002316CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFACFE981DAA96E0002316CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFACFE9A1DAA96E0002316CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFACFE9F1DAA96E0002316CF /* Sunete - iOS 10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sunete - iOS 10Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFACFEA31DAA96E0002316CF /* Sunete___iOS_10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sunete___iOS_10Tests.swift"; sourceTree = "<group>"; };
+		DFACFEA51DAA96E0002316CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFACFEAA1DAA96E0002316CF /* Sunete - iOS 10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sunete - iOS 10UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFACFEAE1DAA96E0002316CF /* Sunete___iOS_10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sunete___iOS_10UITests.swift"; sourceTree = "<group>"; };
+		DFACFEB01DAA96E0002316CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFACFE851DAA96E0002316CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFACFE9C1DAA96E0002316CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFACFEA71DAA96E0002316CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFACFE7F1DAA96E0002316CF = {
+			isa = PBXGroup;
+			children = (
+				DFACFE8A1DAA96E0002316CF /* Sunete - iOS 10 */,
+				DFACFEA21DAA96E0002316CF /* Sunete - iOS 10Tests */,
+				DFACFEAD1DAA96E0002316CF /* Sunete - iOS 10UITests */,
+				DFACFE891DAA96E0002316CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFACFE891DAA96E0002316CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFACFE881DAA96E0002316CF /* Sunete - iOS 10.app */,
+				DFACFE9F1DAA96E0002316CF /* Sunete - iOS 10Tests.xctest */,
+				DFACFEAA1DAA96E0002316CF /* Sunete - iOS 10UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFACFE8A1DAA96E0002316CF /* Sunete - iOS 10 */ = {
+			isa = PBXGroup;
+			children = (
+				DFACFE8B1DAA96E0002316CF /* AppDelegate.swift */,
+				DFACFE8D1DAA96E0002316CF /* ViewController.swift */,
+				DFACFE8F1DAA96E0002316CF /* Main.storyboard */,
+				DFACFE951DAA96E0002316CF /* Assets.xcassets */,
+				DFACFE971DAA96E0002316CF /* LaunchScreen.storyboard */,
+				DFACFE9A1DAA96E0002316CF /* Info.plist */,
+				DFACFE921DAA96E0002316CF /* Sunete___iOS_10.xcdatamodeld */,
+			);
+			path = "Sunete - iOS 10";
+			sourceTree = "<group>";
+		};
+		DFACFEA21DAA96E0002316CF /* Sunete - iOS 10Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DFACFEA31DAA96E0002316CF /* Sunete___iOS_10Tests.swift */,
+				DFACFEA51DAA96E0002316CF /* Info.plist */,
+			);
+			path = "Sunete - iOS 10Tests";
+			sourceTree = "<group>";
+		};
+		DFACFEAD1DAA96E0002316CF /* Sunete - iOS 10UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFACFEAE1DAA96E0002316CF /* Sunete___iOS_10UITests.swift */,
+				DFACFEB01DAA96E0002316CF /* Info.plist */,
+			);
+			path = "Sunete - iOS 10UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFACFE871DAA96E0002316CF /* Sunete - iOS 10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFACFEB31DAA96E0002316CF /* Build configuration list for PBXNativeTarget "Sunete - iOS 10" */;
+			buildPhases = (
+				DFACFE841DAA96E0002316CF /* Sources */,
+				DFACFE851DAA96E0002316CF /* Frameworks */,
+				DFACFE861DAA96E0002316CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sunete - iOS 10";
+			productName = "Sunete - iOS 10";
+			productReference = DFACFE881DAA96E0002316CF /* Sunete - iOS 10.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFACFE9E1DAA96E0002316CF /* Sunete - iOS 10Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFACFEB61DAA96E0002316CF /* Build configuration list for PBXNativeTarget "Sunete - iOS 10Tests" */;
+			buildPhases = (
+				DFACFE9B1DAA96E0002316CF /* Sources */,
+				DFACFE9C1DAA96E0002316CF /* Frameworks */,
+				DFACFE9D1DAA96E0002316CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFACFEA11DAA96E0002316CF /* PBXTargetDependency */,
+			);
+			name = "Sunete - iOS 10Tests";
+			productName = "Sunete - iOS 10Tests";
+			productReference = DFACFE9F1DAA96E0002316CF /* Sunete - iOS 10Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFACFEA91DAA96E0002316CF /* Sunete - iOS 10UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFACFEB91DAA96E0002316CF /* Build configuration list for PBXNativeTarget "Sunete - iOS 10UITests" */;
+			buildPhases = (
+				DFACFEA61DAA96E0002316CF /* Sources */,
+				DFACFEA71DAA96E0002316CF /* Frameworks */,
+				DFACFEA81DAA96E0002316CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFACFEAC1DAA96E0002316CF /* PBXTargetDependency */,
+			);
+			name = "Sunete - iOS 10UITests";
+			productName = "Sunete - iOS 10UITests";
+			productReference = DFACFEAA1DAA96E0002316CF /* Sunete - iOS 10UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFACFE801DAA96E0002316CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Dragos Florin";
+				TargetAttributes = {
+					DFACFE871DAA96E0002316CF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 45A92XCUK6;
+						ProvisioningStyle = Automatic;
+					};
+					DFACFE9E1DAA96E0002316CF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 45A92XCUK6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFACFE871DAA96E0002316CF;
+					};
+					DFACFEA91DAA96E0002316CF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 45A92XCUK6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFACFE871DAA96E0002316CF;
+					};
+				};
+			};
+			buildConfigurationList = DFACFE831DAA96E0002316CF /* Build configuration list for PBXProject "Sunete - iOS 10" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFACFE7F1DAA96E0002316CF;
+			productRefGroup = DFACFE891DAA96E0002316CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFACFE871DAA96E0002316CF /* Sunete - iOS 10 */,
+				DFACFE9E1DAA96E0002316CF /* Sunete - iOS 10Tests */,
+				DFACFEA91DAA96E0002316CF /* Sunete - iOS 10UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFACFE861DAA96E0002316CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFACFE991DAA96E0002316CF /* LaunchScreen.storyboard in Resources */,
+				DFACFE961DAA96E0002316CF /* Assets.xcassets in Resources */,
+				DFACFE911DAA96E0002316CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFACFE9D1DAA96E0002316CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFACFEA81DAA96E0002316CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFACFE841DAA96E0002316CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFACFE8E1DAA96E0002316CF /* ViewController.swift in Sources */,
+				DFACFE8C1DAA96E0002316CF /* AppDelegate.swift in Sources */,
+				DFACFE941DAA96E0002316CF /* Sunete___iOS_10.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFACFE9B1DAA96E0002316CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFACFEA41DAA96E0002316CF /* Sunete___iOS_10Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFACFEA61DAA96E0002316CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFACFEAF1DAA96E0002316CF /* Sunete___iOS_10UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFACFEA11DAA96E0002316CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFACFE871DAA96E0002316CF /* Sunete - iOS 10 */;
+			targetProxy = DFACFEA01DAA96E0002316CF /* PBXContainerItemProxy */;
+		};
+		DFACFEAC1DAA96E0002316CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFACFE871DAA96E0002316CF /* Sunete - iOS 10 */;
+			targetProxy = DFACFEAB1DAA96E0002316CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFACFE8F1DAA96E0002316CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFACFE901DAA96E0002316CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFACFE971DAA96E0002316CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFACFE981DAA96E0002316CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFACFEB11DAA96E0002316CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFACFEB21DAA96E0002316CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFACFEB41DAA96E0002316CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45A92XCUK6;
+				INFOPLIST_FILE = "Sunete - iOS 10/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDF-Solutions.Sunete---iOS-10";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DFACFEB51DAA96E0002316CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45A92XCUK6;
+				INFOPLIST_FILE = "Sunete - iOS 10/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDF-Solutions.Sunete---iOS-10";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DFACFEB71DAA96E0002316CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 45A92XCUK6;
+				INFOPLIST_FILE = "Sunete - iOS 10Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDF-Solutions.Sunete---iOS-10Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunete - iOS 10.app/Sunete - iOS 10";
+			};
+			name = Debug;
+		};
+		DFACFEB81DAA96E0002316CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 45A92XCUK6;
+				INFOPLIST_FILE = "Sunete - iOS 10Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDF-Solutions.Sunete---iOS-10Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunete - iOS 10.app/Sunete - iOS 10";
+			};
+			name = Release;
+		};
+		DFACFEBA1DAA96E0002316CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 45A92XCUK6;
+				INFOPLIST_FILE = "Sunete - iOS 10UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDF-Solutions.Sunete---iOS-10UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Sunete - iOS 10";
+			};
+			name = Debug;
+		};
+		DFACFEBB1DAA96E0002316CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 45A92XCUK6;
+				INFOPLIST_FILE = "Sunete - iOS 10UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDF-Solutions.Sunete---iOS-10UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Sunete - iOS 10";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFACFE831DAA96E0002316CF /* Build configuration list for PBXProject "Sunete - iOS 10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFACFEB11DAA96E0002316CF /* Debug */,
+				DFACFEB21DAA96E0002316CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFACFEB31DAA96E0002316CF /* Build configuration list for PBXNativeTarget "Sunete - iOS 10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFACFEB41DAA96E0002316CF /* Debug */,
+				DFACFEB51DAA96E0002316CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFACFEB61DAA96E0002316CF /* Build configuration list for PBXNativeTarget "Sunete - iOS 10Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFACFEB71DAA96E0002316CF /* Debug */,
+				DFACFEB81DAA96E0002316CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFACFEB91DAA96E0002316CF /* Build configuration list for PBXNativeTarget "Sunete - iOS 10UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFACFEBA1DAA96E0002316CF /* Debug */,
+				DFACFEBB1DAA96E0002316CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFACFE921DAA96E0002316CF /* Sunete___iOS_10.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFACFE931DAA96E0002316CF /* Sunete___iOS_10.xcdatamodel */,
+			);
+			currentVersion = DFACFE931DAA96E0002316CF /* Sunete___iOS_10.xcdatamodel */;
+			path = "Sunete___iOS_10.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFACFE801DAA96E0002316CF /* Project object */;
+}
