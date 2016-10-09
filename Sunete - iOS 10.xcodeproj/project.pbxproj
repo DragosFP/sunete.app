@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		DFACFE8C1DAA96E0002316CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFACFE8B1DAA96E0002316CF /* AppDelegate.swift */; };
-		DFACFE8E1DAA96E0002316CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFACFE8D1DAA96E0002316CF /* ViewController.swift */; };
+		DFACFE8E1DAA96E0002316CF /* PrimaPaginaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFACFE8D1DAA96E0002316CF /* PrimaPaginaViewController.swift */; };
 		DFACFE911DAA96E0002316CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACFE8F1DAA96E0002316CF /* Main.storyboard */; };
 		DFACFE941DAA96E0002316CF /* Sunete___iOS_10.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFACFE921DAA96E0002316CF /* Sunete___iOS_10.xcdatamodeld */; };
 		DFACFE961DAA96E0002316CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFACFE951DAA96E0002316CF /* Assets.xcassets */; };
 		DFACFE991DAA96E0002316CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACFE971DAA96E0002316CF /* LaunchScreen.storyboard */; };
 		DFACFEA41DAA96E0002316CF /* Sunete___iOS_10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFACFEA31DAA96E0002316CF /* Sunete___iOS_10Tests.swift */; };
 		DFACFEAF1DAA96E0002316CF /* Sunete___iOS_10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFACFEAE1DAA96E0002316CF /* Sunete___iOS_10UITests.swift */; };
+		DFACFEBD1DAA9AA5002316CF /* AdaugaSunetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFACFEBC1DAA9AA5002316CF /* AdaugaSunetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		DFACFE881DAA96E0002316CF /* Sunete - iOS 10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sunete - iOS 10.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFACFE8B1DAA96E0002316CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DFACFE8D1DAA96E0002316CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFACFE8D1DAA96E0002316CF /* PrimaPaginaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaPaginaViewController.swift; sourceTree = "<group>"; };
 		DFACFE901DAA96E0002316CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFACFE931DAA96E0002316CF /* Sunete___iOS_10.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Sunete___iOS_10.xcdatamodel"; sourceTree = "<group>"; };
 		DFACFE951DAA96E0002316CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		DFACFEAA1DAA96E0002316CF /* Sunete - iOS 10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sunete - iOS 10UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFACFEAE1DAA96E0002316CF /* Sunete___iOS_10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sunete___iOS_10UITests.swift"; sourceTree = "<group>"; };
 		DFACFEB01DAA96E0002316CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFACFEBC1DAA9AA5002316CF /* AdaugaSunetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdaugaSunetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				DFACFE8B1DAA96E0002316CF /* AppDelegate.swift */,
-				DFACFE8D1DAA96E0002316CF /* ViewController.swift */,
+				DFACFE8D1DAA96E0002316CF /* PrimaPaginaViewController.swift */,
+				DFACFEBC1DAA9AA5002316CF /* AdaugaSunetViewController.swift */,
 				DFACFE8F1DAA96E0002316CF /* Main.storyboard */,
 				DFACFE951DAA96E0002316CF /* Assets.xcassets */,
 				DFACFE971DAA96E0002316CF /* LaunchScreen.storyboard */,
@@ -265,9 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFACFE8E1DAA96E0002316CF /* ViewController.swift in Sources */,
+				DFACFE8E1DAA96E0002316CF /* PrimaPaginaViewController.swift in Sources */,
 				DFACFE8C1DAA96E0002316CF /* AppDelegate.swift in Sources */,
 				DFACFE941DAA96E0002316CF /* Sunete___iOS_10.xcdatamodeld in Sources */,
+				DFACFEBD1DAA9AA5002316CF /* AdaugaSunetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

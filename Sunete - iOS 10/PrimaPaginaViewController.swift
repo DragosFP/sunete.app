@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PrimaPaginaViewController.swift
 //  Sunete - iOS 10
 //
 //  Created by Dragos Florin on 10/9/16.
