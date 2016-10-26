@@ -25,7 +25,7 @@
         <!--Sunete-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="PrimaPaginaViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="PrimaPaginaViewController" customModule="Sunete___iOS_10" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -49,10 +49,13 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="lQi-vr-0f3" id="Lw9-5O-FED"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="266" y="15"/>
+            <point key="canvasLocation" x="284" y="15"/>
         </scene>
         <!--Adauga Sunet View Controller-->
         <scene sceneID="0cd-Ex-tRC">
@@ -68,9 +71,15 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IkX-W1-E96">
                                 <state key="normal" title="Inregistreaza"/>
+                                <connections>
+                                    <action selector="inregistreazaApasat:" destination="B88-iq-xz0" eventType="touchUpInside" id="6Cc-sy-iaS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oha-5F-Tuz">
                                 <state key="normal" title="Asculta"/>
+                                <connections>
+                                    <action selector="ascultaApasat:" destination="B88-iq-xz0" eventType="touchUpInside" id="A1U-bb-ruE"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Introdu Denumirea" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nUc-ur-tak">
                                 <constraints>
@@ -82,6 +91,9 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rS-5n-AEl">
                                 <state key="normal" title="Salveaza"/>
+                                <connections>
+                                    <action selector="salveazaApasat:" destination="B88-iq-xz0" eventType="touchUpInside" id="oeS-yz-XBh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -97,6 +109,12 @@
                             <constraint firstItem="nUc-ur-tak" firstAttribute="centerX" secondItem="f1y-kh-iln" secondAttribute="centerX" id="rUO-Nb-Uj2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="butonAsculta" destination="Oha-5F-Tuz" id="hhw-iS-vLS"/>
+                        <outlet property="butonInregistreaza" destination="IkX-W1-E96" id="msf-JV-MeJ"/>
+                        <outlet property="butonSalveaza" destination="3rS-5n-AEl" id="dud-km-366"/>
+                        <outlet property="campText" destination="nUc-ur-tak" id="c2O-WZ-thT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ArD-TU-eDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
